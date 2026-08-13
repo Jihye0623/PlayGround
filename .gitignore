@@ -19,6 +19,10 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+.pytest_cache/
+
+# Claude Code local scheduled task state
+.claude/scheduled_tasks.lock
 
 # Logs
 *.log
